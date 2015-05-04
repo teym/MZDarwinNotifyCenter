@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27ED440C1AF7D5C30049D249 /* MZDarwinNotifyCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ED440B1AF7D5C30049D249 /* MZDarwinNotifyCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27ED44121AF7D5C30049D249 /* MZDarwinNotifyCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27ED44061AF7D5C30049D249 /* MZDarwinNotifyCenter.framework */; };
+		27ED44191AF7D5C30049D249 /* MZDarwinNotifyCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED44181AF7D5C30049D249 /* MZDarwinNotifyCenterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27ED44131AF7D5C30049D249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27ED43FD1AF7D5C30049D249 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27ED44051AF7D5C30049D249;
+			remoteInfo = MZDarwinNotifyCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27ED44061AF7D5C30049D249 /* MZDarwinNotifyCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZDarwinNotifyCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27ED440A1AF7D5C30049D249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27ED440B1AF7D5C30049D249 /* MZDarwinNotifyCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZDarwinNotifyCenter.h; sourceTree = "<group>"; };
+		27ED44111AF7D5C30049D249 /* MZDarwinNotifyCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZDarwinNotifyCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27ED44171AF7D5C30049D249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27ED44181AF7D5C30049D249 /* MZDarwinNotifyCenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZDarwinNotifyCenterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27ED44021AF7D5C30049D249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ED440E1AF7D5C30049D249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ED44121AF7D5C30049D249 /* MZDarwinNotifyCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27ED43FC1AF7D5C30049D249 = {
+			isa = PBXGroup;
+			children = (
+				27ED44081AF7D5C30049D249 /* MZDarwinNotifyCenter */,
+				27ED44151AF7D5C30049D249 /* MZDarwinNotifyCenterTests */,
+				27ED44071AF7D5C30049D249 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27ED44071AF7D5C30049D249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27ED44061AF7D5C30049D249 /* MZDarwinNotifyCenter.framework */,
+				27ED44111AF7D5C30049D249 /* MZDarwinNotifyCenterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27ED44081AF7D5C30049D249 /* MZDarwinNotifyCenter */ = {
+			isa = PBXGroup;
+			children = (
+				27ED440B1AF7D5C30049D249 /* MZDarwinNotifyCenter.h */,
+				27ED44091AF7D5C30049D249 /* Supporting Files */,
+			);
+			path = MZDarwinNotifyCenter;
+			sourceTree = "<group>";
+		};
+		27ED44091AF7D5C30049D249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27ED440A1AF7D5C30049D249 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27ED44151AF7D5C30049D249 /* MZDarwinNotifyCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				27ED44181AF7D5C30049D249 /* MZDarwinNotifyCenterTests.swift */,
+				27ED44161AF7D5C30049D249 /* Supporting Files */,
+			);
+			path = MZDarwinNotifyCenterTests;
+			sourceTree = "<group>";
+		};
+		27ED44161AF7D5C30049D249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27ED44171AF7D5C30049D249 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27ED44031AF7D5C30049D249 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ED440C1AF7D5C30049D249 /* MZDarwinNotifyCenter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27ED44051AF7D5C30049D249 /* MZDarwinNotifyCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27ED441C1AF7D5C30049D249 /* Build configuration list for PBXNativeTarget "MZDarwinNotifyCenter" */;
+			buildPhases = (
+				27ED44011AF7D5C30049D249 /* Sources */,
+				27ED44021AF7D5C30049D249 /* Frameworks */,
+				27ED44031AF7D5C30049D249 /* Headers */,
+				27ED44041AF7D5C30049D249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZDarwinNotifyCenter;
+			productName = MZDarwinNotifyCenter;
+			productReference = 27ED44061AF7D5C30049D249 /* MZDarwinNotifyCenter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27ED44101AF7D5C30049D249 /* MZDarwinNotifyCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27ED441F1AF7D5C30049D249 /* Build configuration list for PBXNativeTarget "MZDarwinNotifyCenterTests" */;
+			buildPhases = (
+				27ED440D1AF7D5C30049D249 /* Sources */,
+				27ED440E1AF7D5C30049D249 /* Frameworks */,
+				27ED440F1AF7D5C30049D249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27ED44141AF7D5C30049D249 /* PBXTargetDependency */,
+			);
+			name = MZDarwinNotifyCenterTests;
+			productName = MZDarwinNotifyCenterTests;
+			productReference = 27ED44111AF7D5C30049D249 /* MZDarwinNotifyCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27ED43FD1AF7D5C30049D249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = WangMike;
+				TargetAttributes = {
+					27ED44051AF7D5C30049D249 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					27ED44101AF7D5C30049D249 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 27ED44001AF7D5C30049D249 /* Build configuration list for PBXProject "MZDarwinNotifyCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27ED43FC1AF7D5C30049D249;
+			productRefGroup = 27ED44071AF7D5C30049D249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27ED44051AF7D5C30049D249 /* MZDarwinNotifyCenter */,
+				27ED44101AF7D5C30049D249 /* MZDarwinNotifyCenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27ED44041AF7D5C30049D249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ED440F1AF7D5C30049D249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27ED44011AF7D5C30049D249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ED440D1AF7D5C30049D249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27ED44191AF7D5C30049D249 /* MZDarwinNotifyCenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27ED44141AF7D5C30049D249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27ED44051AF7D5C30049D249 /* MZDarwinNotifyCenter */;
+			targetProxy = 27ED44131AF7D5C30049D249 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27ED441A1AF7D5C30049D249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27ED441B1AF7D5C30049D249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27ED441D1AF7D5C30049D249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MZDarwinNotifyCenter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		27ED441E1AF7D5C30049D249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MZDarwinNotifyCenter/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		27ED44201AF7D5C30049D249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MZDarwinNotifyCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27ED44211AF7D5C30049D249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MZDarwinNotifyCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27ED44001AF7D5C30049D249 /* Build configuration list for PBXProject "MZDarwinNotifyCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ED441A1AF7D5C30049D249 /* Debug */,
+				27ED441B1AF7D5C30049D249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27ED441C1AF7D5C30049D249 /* Build configuration list for PBXNativeTarget "MZDarwinNotifyCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ED441D1AF7D5C30049D249 /* Debug */,
+				27ED441E1AF7D5C30049D249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27ED441F1AF7D5C30049D249 /* Build configuration list for PBXNativeTarget "MZDarwinNotifyCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ED44201AF7D5C30049D249 /* Debug */,
+				27ED44211AF7D5C30049D249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27ED43FD1AF7D5C30049D249 /* Project object */;
+}
