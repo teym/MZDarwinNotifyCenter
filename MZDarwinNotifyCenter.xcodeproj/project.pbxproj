@@ -10,6 +10,8 @@
 		27ED440C1AF7D5C30049D249 /* MZDarwinNotifyCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ED440B1AF7D5C30049D249 /* MZDarwinNotifyCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27ED44121AF7D5C30049D249 /* MZDarwinNotifyCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27ED44061AF7D5C30049D249 /* MZDarwinNotifyCenter.framework */; };
 		27ED44191AF7D5C30049D249 /* MZDarwinNotifyCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED44181AF7D5C30049D249 /* MZDarwinNotifyCenterTests.swift */; };
+		27ED44231AF7D5E90049D249 /* MZDarwinNotifyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ED44221AF7D5E90049D249 /* MZDarwinNotifyCenter.swift */; };
+		27ED44241AF7D6200049D249 /* MZDarwinNotifyCenter.swift in Headers */ = {isa = PBXBuildFile; fileRef = 27ED44221AF7D5E90049D249 /* MZDarwinNotifyCenter.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 		27ED44111AF7D5C30049D249 /* MZDarwinNotifyCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZDarwinNotifyCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27ED44171AF7D5C30049D249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27ED44181AF7D5C30049D249 /* MZDarwinNotifyCenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZDarwinNotifyCenterTests.swift; sourceTree = "<group>"; };
+		27ED44221AF7D5E90049D249 /* MZDarwinNotifyCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDarwinNotifyCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				27ED440B1AF7D5C30049D249 /* MZDarwinNotifyCenter.h */,
+				27ED44221AF7D5E90049D249 /* MZDarwinNotifyCenter.swift */,
 				27ED44091AF7D5C30049D249 /* Supporting Files */,
 			);
 			path = MZDarwinNotifyCenter;
@@ -110,6 +114,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27ED440C1AF7D5C30049D249 /* MZDarwinNotifyCenter.h in Headers */,
+				27ED44241AF7D6200049D249 /* MZDarwinNotifyCenter.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27ED44231AF7D5E90049D249 /* MZDarwinNotifyCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +329,7 @@
 		27ED441D1AF7D5C30049D249 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,12 +339,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		27ED441E1AF7D5C30049D249 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
